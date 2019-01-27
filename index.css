@@ -2,7 +2,7 @@
 html {
     background-repeat: no-repeat;
     background-position: top right;
-    background-color: rgba(30, 170, 162, 0.05);
+    background-color: #fff;
     font-family: 'Messina Sans Lumi',-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
@@ -34,14 +34,37 @@ hr {
     font-weight: bold;
 }
 
-.center {
-    text-align: center;
-}
 /* =========================== */
+
+/* Navbar */
+.navbar-border{
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px lightgray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    flex: start;
+    margin: auto 0;
+}
+
+.nav-wrapper {
+    margin: auto 0 auto auto;
+}
+
+.logo {
+    width: 200px;
+    padding: 13px 0;
+    
+}
+/* =========== */
 
 /* Header */
 .title-background-wrapper {
-    background-image: url("./img/clutter-landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -62,11 +85,6 @@ header{
 .text-wrapper {
     padding: 5px 0;
     margin: 20px 0;
-}
-
-.logo {
-    width: 120px;
-    padding: 5px 0;
 }
 
 .headline {
