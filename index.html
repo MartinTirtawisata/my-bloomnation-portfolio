@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./float-grid.css">
     <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Arapey" rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -30,6 +30,10 @@
                         <div class="logo-wrapper">
                             <img class="logo" src="./img/bloomnation.png" alt="lumi logo">
                         </div>
+                        <div class="title-wrapper">
+                            <p class="name">Martin Tirtawisata</p>
+                            <p class="job-title">Full Stack Developer</p>
+                        </div>
                         <div class="nav-wrapper">
                             <ul>
                                 <a href="#bio"><li>Bio</li></a>
@@ -37,33 +41,15 @@
                                 <a href="#contact-form"><li>Contact Me</li></a>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div data-aos="zoom-in" class="title-background-wrapper">
-            <div class="row">
-                <div class="col-12">
-                    <header>
-                        <div class="title">
-                            <div class="text-wrapper">
-                                <p class="name">Martin Tirtawisata</p>
-                                <p class="job-title">FullStack Developer</p>
-                            </div>
-                           
-                        </div>
-                    </header>
-                </div>
-            </div>
-            <!--  -->
-        </div>
-        <hr>
+
         <!-- Bio -->
         <div class="row">
             <div id="bio" class="col-12">
-                <h1>About Me</h1>
+                <h1 class="about-me">About Me</h1>
                 <div data-aos="zoom-in">
                     <div class="bio-section">
                         <div class="bio-wrapper">
@@ -78,18 +64,15 @@
                                 I get along well with people and enjoys punny jokes! 
                             </p>
                         </div>
-                        <div class="LI-profile-badge badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="martin-tirtawisata"><a class="LI-simple-link" href='https://www.linkedin.com/in/martin-tirtawisata?trk=profile-badge'>Martin Tirtawisata</a></div>
                     </div>     
                 </div>  
             </div>
         </div>
-        <hr>
         <!-- Projects -->
         <div class="row">           
-            <img class="img-page-breaker" src="./img/clutter-living.jpg" alt="A picture of clutter image of a living room"> 
             <!-- PlanIt -->
             <div id="projects" class="col-12">
-                <h1 class="project-headline">Projects</h1>
+                <p class="project-headline">Unique Projects</p>
                 <section>
                     <div class="image-section" data-aos="zoom-in-right">
                         <a href="https://martintirtawisata.github.io/PlanIt-GoogleMapsAPI/" target="_blank">
@@ -98,7 +81,7 @@
                     </div>
                     <div data-aos="zoom-in-left" class="desc-section">
                         <div class="desc-wrapper map-location">
-                            <h1 class="cluttered-green">PlanIt</h1>
+                            <h1 class="bloomnation-purple">PlanIt</h1>
                             <p class="black-font">PlanIt is a simplified mapping system that uses Google Maps API that immediately calculates distances for multiple pinpoint destinations.</p>
                             <p class="black-font"><span class="tech-used">Tech Used:</span> HTML, CSS, JavaScript, jQuery, Google Maps API</p> 
                             <a class="github-link" target="_blank" href="https://github.com/MartinTirtawisata/PlanIt-GoogleMapsAPI">
@@ -121,7 +104,7 @@
                     </div>
                     <div data-aos="zoom-in-left" class="desc-section">
                         <div class="desc-wrapper invit-ims">
-                            <h1 class="cluttered-green">Invit</h1>
+                            <h1 class="bloomnation-purple">Invit</h1>
                             <p class="black-font">Invit is a minimalist Inventory Management Systems designed for personal and small business's needs. It allows you to easily create and track all your products with simplicity and no hassle.</p>
                             <p class="black-font"><span class="tech-used">Tech Used:</span> HTML, CSS, JavaScript, jQuery, <span class="bold">Node.js</span>, <span class="bold">Express</span>, <span class="bold">MongoDB</span>, mLAB, Mongoose, PassportJS, JWT, TravisCI, Heroku, Mocha & Chai </p> 
                             <a class="github-link" target="_blank" href="https://github.com/MartinTirtawisata/Invit">
@@ -144,9 +127,9 @@
                     </div>
                     <div data-aos="zoom-in-left" class="desc-section">
                         <div class="desc-wrapper coteam-img">
-                            <h1 class="cluttered-green">Coteam</h1>
+                            <h1 class="bloomnation-purple">Coteam</h1>
                             <p class="black-font">Coteam is a platform that allows users to create a social profile to share with their team to facilitate a better team engagement and environment.</p>
-                            <p class="black-font"><span class="tech-used">Tech Used:</span> HTML, CSS, JavaScript, <span class="bold">React.js</span>, <span class="bold">Redux</span>, NodeJS, Express, MongoDB, mLAB, Mongoose, PassportJS, JWT, TravisCI, Heroku, Mocha & Chai </p> 
+                            <p class="black-font"><span class="tech-used">Tech Used:</span> HTML, CSS, JavaScript, <span class="bold">React.js</span>, <span class="bold">Redux</span>, NodeJS, Express, MongoDB, mLAB, Mongoose, PassportJS, JWT, TravisCI, Heroku, Mocha & Chai, Enzyme </p> 
                             <a class="github-link" target="_blank" href="https://github.com/MartinTirtawisata/coteam-client">
                                 View Coteam React Client Github repository →
                             </a>
@@ -159,23 +142,22 @@
                 </section>
             </div>
         </div>
-        <hr>
         <!-- Contact Form -->
         <div data-aos="zoom-in" class="contact-background-wrapper">
             <div class="row">
                 <div id="contact-form" class="col-12">
-                    <h1 class="cluttered-green">Contact Me </h1>
-                  
+                    <h1>Contact Me </h1>
                     <div class="contact-form black-font">
-                        <div class="text-wrapper">
-                            <p>I can be contacted here: <a href="mailto:martintirtawisata@gmail.com" target="_top">martintirtawisata@gmail.com</a>.</p>
+                        <div>
+                            <p>I can be contacted here: <a class="email-link" href="mailto:martintirtawisata@gmail.com" target="_top">martintirtawisata@gmail.com</a>.</p>
                             <p>Or</p>
-                            <ul>
-                                <a href="https://www.linkedin.com/in/martin-tirtawisata/" target="_blank"><li><img src="./img/linkedin-logo.png" alt="linkedin-logo"></li></a>
+                            <ul class="contact-links">
                                 <a href="https://github.com/MartinTirtawisata" target="_blank"><li><img src="./img/github-logo.png" alt="github-logo"></li></a>
                             </ul>
                         </div>   
                     </div>
+
+                    <div class="LI-profile-badge badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="martin-tirtawisata"><a class="LI-simple-link" href='https://www.linkedin.com/in/martin-tirtawisata?trk=profile-badge'>Martin Tirtawisata</a></div>
                     
                 </div>
             </div>
